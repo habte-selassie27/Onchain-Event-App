@@ -69,6 +69,9 @@ export default function App() {
         </div>
       </header>
 
+      {  <NftMintCard /> }
+
+      
       <main className="flex-grow flex items-center justify-center">
         <div className="max-w-4xl w-full p-4">
           <div className="w-1/3 mx-auto mb-6">
@@ -122,7 +125,7 @@ export default function App() {
                           {template.name}
                           <ArrowSvg/>
                         </a>
-                      {  <NftMintCard /> }
+                    
                       </li>
 
                      
