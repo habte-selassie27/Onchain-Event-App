@@ -17,7 +17,7 @@ import {
 import ArrowSvg from './svg/ArrowSvg';
 import ImageSvg from './svg/Image';
 import OnchainkitSvg from './svg/OnchainKit';
-import NftMintCard from './components/NftMintCard';
+import NftMintCardUI from './components/NftMintCard';
 
 const components = [
   {
@@ -69,9 +69,8 @@ export default function App() {
         </div>
       </header>
 
-      {  <NftMintCard /> }
 
-      
+
       <main className="flex-grow flex items-center justify-center">
         <div className="max-w-4xl w-full p-4">
           <div className="w-1/3 mx-auto mb-6">
@@ -109,6 +108,9 @@ export default function App() {
                     ))}
                   </ul>
                 </div>
+
+                { <NftMintCardUI />}
+
                 <div className="md:w-1/2 flex flex-col items-center">
                   <p className="font-semibold mb-2 text-center">
                     Explore templates
