@@ -17,6 +17,7 @@ import {
 import ArrowSvg from './svg/ArrowSvg';
 import ImageSvg from './svg/Image';
 import OnchainkitSvg from './svg/OnchainKit';
+import NftMintCard from './components/NftMintCard';
 
 const components = [
   {
@@ -121,7 +122,10 @@ export default function App() {
                           {template.name}
                           <ArrowSvg/>
                         </a>
+                        <NftMintCard />
                       </li>
+
+                     
                     ))}
                   </ul>
                 </div>
