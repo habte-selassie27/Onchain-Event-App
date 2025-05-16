@@ -122,7 +122,7 @@ export default function App() {
                           {template.name}
                           <ArrowSvg/>
                         </a>
-                        <NftMintCard />
+                      {  <NftMintCard /> }
                       </li>
 
                      
